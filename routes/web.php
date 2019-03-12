@@ -14,14 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-<<<<<<< HEAD
 Route::get('layout', function () {
     return view('layouts.master');
 });
 Route::get('dashboard', function () {
     return view('dashboard.index');
 });
-=======
->>>>>>> ec48bd5612a076dd44e23a53b76fd8ccdde9de02
 Route::get('/lihatdata', 'CategoryController@index')->name('lihatdata');
