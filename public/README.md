@@ -1,94 +1,57 @@
-<p align="center">
-  <a href="https://getstisla.com">
-    <img src="https://avatars2.githubusercontent.com/u/45754626?s=75&v=4" alt="Stisla logo" width="75" height="75">
-  </a>
-</p>
+Introduction
+============
 
-<h1 align="center">Stisla</h1>
+![Bower version](https://img.shields.io/bower/v/adminlte.svg)
+[![npm version](https://img.shields.io/npm/v/admin-lte.svg)](https://www.npmjs.com/package/admin-lte)
+[![Packagist](https://img.shields.io/packagist/v/almasaeed2010/adminlte.svg)](https://packagist.org/packages/almasaeed2010/adminlte)
+[![CDNJS](https://img.shields.io/cdnjs/v/admin-lte.svg)](https://cdnjs.com/libraries/admin-lte)
 
-<p align="center">
-  Stisla is Free Bootstrap Admin Template and will help you to speed up your project, design your own dashboard UI and the users will love it.
-</p>
+**AdminLTE** -- is a fully responsive admin template. Based on **[Bootstrap 3](https://github.com/twbs/bootstrap)** framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops. Check out the live preview now and see for yourself.
 
-<p align="center">
-  <a href="https://getstisla.com">Homepage</a>
-  •
-  <a href="https://getstisla.com/getting-started">Getting Started</a>
-  •
-  <a href="https://getstisla.com/docs">Documentation</a>
-  •
-  <a href="https://getstisla.com/blog">Blog</a>
-  •
-  <a href="https://getstisla.com/support">Issue</a>
-</p>
+**Download & Preview on [AdminLTE.IO](https://adminlte.io)**
 
-[![Stisla Preview](https://camo.githubusercontent.com/2135e0f6544a7286a3412cdc3df32d47fc91b045/68747470733a2f2f692e6962622e636f2f3674646d6358302f323031382d31312d31312d31352d33352d676574737469736c612d636f6d2e706e67)](https://getstisla.com)
+### Looking for Premium Templates?
+**AdminLTE.IO just opened a new premium templates website. Hand picked to ensure the best quality and the most affordable prices. Visit https://themequarry.com for more information.**
 
+## Documentation & Installation Guide
+Visit the [online documentation](https://adminlte.io/docs) for the most
+updated guide.
 
-## Table of contents
+!["AdminLTE Presentation"](https://adminlte.io/AdminLTE2.png "AdminLTE Presentation")
 
-- [Status](#status)
-- [Quick start](#quick-start)
-- [Roadmap](#roadmap)
-- [Integrates](#integrates)
-- [Contributors](#contributors)
-- [Contributing](#contributing)
-- [License](#license)
-- [Supported By BrowserStack](#supported-by-browserstack)
+### Contribution
+Contribution are always **welcome and recommended**! Here is how:
 
+- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
+- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/AdminLTE.git```
+- Make your changes
+- Create a pull request
 
-## Status
+#### Contribution Requirements:
 
-![GitHub last commit](https://img.shields.io/github/last-commit/stisla/stisla.svg)
-[![GitHub issues](https://img.shields.io/github/issues/stisla/stisla.svg)](https://github.com/stisla/stisla/issues)
-![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg)
-[![License](https://img.shields.io/github/license/stisla/stisla.svg)](LICENSE)
-![npm version](https://badge.fury.io/js/yarn.svg)
+- When you contribute, you agree to give a non-exclusive license to AdminLTE.IO to use that contribution in any context as we (AdminLTE.IO) see appropriate.
+- If you use content provided by another party, it must be appropriately licensed using an [open source](http://opensource.org/licenses) license.
+- Contributions are only accepted through Github pull requests.
+- Finally, contributed code must work in all supported browsers (see above for browser support).
 
+### License
+AdminLTE is an open source project by [AdminLTE.IO](https://adminlte.io) that is licensed under [MIT](http://opensource.org/licenses/MIT). AdminLTE.IO
+reserves the right to change the license of future releases. Wondering what you can or can't do? View the [license guide](https://adminlte.io/docs/license).
 
-## Quick start
+### Legacy Releases
+AdminLTE 1.x can be easily upgraded to 2.x using [this guide](https://adminlte.io/themes/AdminLTE/documentation/index.html#upgrade), but if you intend to keep using AdminLTE 1.x, you can download the latest release from the [releases](https://github.com/almasaeed2010/AdminLTE/releases) section above.
 
-Several quick start options are available:
+### Change log
+**For the most recent change log, visit the [releases page](https://github.com/almasaeed2010/AdminLTE/releases) or the [changelog file](https://github.com/almasaeed2010/AdminLTE/blob/master/changelog.md).** We will add detailed release notes to each new release. 
 
-- [Download the latest release.](https://github.com/stisla/stisla/archive/v2.2.0.zip)
-- Clone the repo: `git clone https://github.com/stisla/stisla.git`
-- Install [npm](https://www.npmjs.com) or yarn [yarn](https://yarnpkg.com) first if you don't have it in your machine
-- Run the `yarn stisla-start` command to start using stisla !
+### Image Credits
+- [Pixeden](http://www.pixeden.com/psd-web-elements/flat-responsive-showcase-psd)
+- [Graphicsfuel](http://www.graphicsfuel.com/2013/02/13-high-resolution-blur-backgrounds/)
+- [Pickaface](http://pickaface.net/)
+- [Unsplash](https://unsplash.com/)
+- [Uifaces](http://uifaces.com/)
 
-Read the [Getting started page](https://getstisla.com/docs) for information on the framework contents, templates and examples, and more.
+### Donations
+Donations are **greatly appreciated!**
 
-## Development Guide
-- Clone the repo: `git clone https://github.com/stisla/stisla.git` to your local path
-- Make sure you have [npm](https://www.npmjs.com) or yarn [yarn](https://yarnpkg.com) installed to your machine
-- Run the `stisla-dev` command to install production dependencies
-- Run the `dev` command to start developing
-
-## Roadmap
-You can find the Stisla road map here: [Stisla Roadmap](https://trello.com/b/M8TMnehE/stisla-roadmap)
-
-
-## Integrates
-- [Rails](https://github.com/SunDi3yansyah/stisla-rails)
-- [CodeIgniter](https://github.com/KhidirDotID/stisla-codeigniter)
-- Laravel (let's contribute)
-- Django (let's contribute)
-- and more...
-
-
-## Contributors
-Stisla is better because of the [contributors](https://github.com/stisla/stisla/graphs/contributors). Thank them too.
-
-
-## Contributing
-Want to help Stisla get better? Let's contribute and follow our [contribution guide](https://github.com/stisla/stisla/blob/master/CONTRIBUTING.md).
-
-
-## License
-Stisla is under the [MIT License](LICENSE)
-
-## Supported by BrowserStack
-Thanks to BrowserStack for their support of this open-source project.
-
-<a href="https://www.browserstack.com">
-  <img src="https://getstisla.com/svg/Browserstack-logo.svg" alt="BrowserStack" width="250">
-</a>
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "AdminLTE Presentation")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=629XCUSXBHCBC "Donate")

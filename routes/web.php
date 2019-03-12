@@ -17,7 +17,11 @@ Route::get('/', function () {
 Route::get('layout', function () {
     return view('layouts.master');
 });
-Route::get('dashboard', function () {
+Route::get('master', function () {
     return view('dashboard.index');
 });
+Route::get('dashboard', function () {
+    return view('layouts.dashboard');
+});
+
 Route::get('/lihatdata', 'CategoryController@index')->name('lihatdata');
