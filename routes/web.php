@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('layout', function () {
+    return view('layouts.master');
+});
+Route::get('dashboard', function () {
+    return view('dashboard.index');
+});
+Route::get('/lihatdata', 'CategoryController@index')->name('lihatdata');
